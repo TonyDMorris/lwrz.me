@@ -4,8 +4,11 @@
 .menu {
   @include gradient;
 
-  .navbar-brand-img {
-    width: 100px;
+  .navbar-brand-img-1 {
+    width: 50px;
+  }
+  .navbar-brand-img-2 {
+    width: 150px;
   }
 
   .navbar-collapse.show {

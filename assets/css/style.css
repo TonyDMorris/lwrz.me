@@ -10915,8 +10915,11 @@ textarea.form-control-lg {
 .menu {
   background: linear-gradient(to right, rgba(207, 0, 163, 0.95), rgba(207, 0, 163, 0.95), rgba(0, 0, 0, 0.95), rgba(143, 184, 222, 0.95));
 }
-.menu .navbar-brand-img {
-  width: 100px;
+.menu .navbar-brand-img-1 {
+  width: 50px;
+}
+.menu .navbar-brand-img-2 {
+  width: 150px;
 }
 @media (max-width: 991.98px) {
   .menu .navbar-collapse.show {
