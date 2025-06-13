@@ -11719,3 +11719,14 @@ fieldset:disabled .btn {
 }
 
 /*# sourceMappingURL=style.css.map */
+.cal-call-btn {
+  display: inline-block;
+  padding: 0.6em 1.2em;
+  background-color: #cf00a3;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
