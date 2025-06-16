@@ -869,6 +869,14 @@
           "Hi there! 👋",
           "Welcome to Evertech's AI-powered automation chat. I'm here to help you with any questions you have about our services or how we can assist your business.",
         ],
+        webhookConfig: {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+
+            Authorization: "Basic " + btoa("chatuser:chatuserpassword"),
+          },
+        },
         i18n: {
           en: {
             title: "",
