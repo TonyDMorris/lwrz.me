@@ -961,8 +961,7 @@
             if (!response.ok) {
               throw new Error(`Server responded with ${response.status}`);
             }
-            window.location.href = "#complete"; // Scroll to contact section
-            alert("Message sent successfully!");
+            window.location.href = "/complete.html"; // Scroll to contact section
             document.getElementById("contactForm").reset(); // Clear form after submission
           } catch (error) {
             alert("There was an error sending your message. Please try again.");
